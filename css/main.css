@@ -1,0 +1,89 @@
+.wrapper {
+  height: 100%;
+  width: 100%; }
+  .wrapper .container {
+    height: 100%;
+    width: 100%;
+    background: #fdfdec;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; }
+    .wrapper .container .partPlayList {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      min-height: 250px;
+      border-bottom: 3px double #000;
+      width: 100%; }
+      .wrapper .container .partPlayList .partButton {
+        height: 100%;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column; }
+      .wrapper .container .partPlayList .musicList {
+        margin: 15px;
+        font-size: 20px;
+        font-family: "Arial";
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: #232323; }
+    .wrapper .container .partModalWindow {
+      border-bottom: 3px double #000;
+      width: 100%; }
+      .wrapper .container .partModalWindow .modal {
+        height: 100%;
+        width: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        overflow: auto;
+        background: rgba(236, 236, 236, 0.568); }
+      .wrapper .container .partModalWindow .modalContent {
+        background: #fefefe;
+        margin: 10% 25%;
+        border: 2px solid black;
+        min-height: 350px; }
+        .wrapper .container .partModalWindow .modalContent .modalText {
+          margin: 15px; }
+    .wrapper .container .partTrafficLight {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .wrapper .container .partTrafficLight .circleRed {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 10px; }
+      .wrapper .container .partTrafficLight .circleYellow {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 10px; }
+      .wrapper .container .partTrafficLight .circleGreen {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 10px; }
+    .wrapper .container .button {
+      height: 50px;
+      width: 150px;
+      font-size: 14px;
+      font-family: "Arial";
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: 16px;
+      color: #232323;
+      border: 2px solid black;
+      background-color: bisque;
+      border-radius: 10%;
+      margin: 15px; }
